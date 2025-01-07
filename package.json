@@ -1,24 +1,26 @@
 {
-  "name": "nextify",
-  "version": "0.1.0",
+  "name": "nextify-app",
+  "version": "1.0.4",
   "description": "A Next.js starter kit with app directory structure",
   "main": "index.js",
   "bin": {
-    "nextify": "./index.js"
+    "nextify-app": "./index.js"
   },
-  "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "setup": "node setup"
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
+    "cpx": "^1.5.0",
     "next": "15.1.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-icons": "^5.4.0"
+    "react-icons": "^5.4.0",
+    "shelljs": "^0.8.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
