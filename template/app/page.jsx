@@ -52,7 +52,7 @@ export default function WelcomeScreen() {
             <div className="bg-indigo-100 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold">1. Initialize Your Nextify App</h3>
               <p>Run the following command to initialize a new project using the Nextify starter kit:</p>
-              <pre className="bg-gray-800 text-white p-4 rounded-lg mt-2">nextify app-name</pre>
+              <pre className="bg-gray-800 text-white p-4 rounded-lg mt-2">npx nextify-app app-name</pre>
             </div>
 
             <div className="bg-indigo-100 p-6 rounded-lg shadow-md">
