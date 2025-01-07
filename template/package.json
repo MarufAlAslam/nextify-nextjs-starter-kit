@@ -1,6 +1,6 @@
 {
   "name": "nextify-app",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Next.js starter kit with app directory structure",
   "main": "index.js",
   "bin": {
